@@ -58,4 +58,4 @@ It is primarily opinion-based whether one should use the toilet closure or `drop
 
 The base syntax for defining type parameters explicitly when using a generic type or function.
 
-See also [turbo.fish](https//turbo.fish).
+See also [turbo.fish](https://turbo.fish).
