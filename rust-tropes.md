@@ -1,6 +1,6 @@
 ## crate squatting
 
-Reserving one or more crate names on <crates.io> for future use by publishing a placeholder crate. While this practice is not forbidden, it is also frowned upon by some, and can be reverted in extreme or malicious cases.
+Reserving one or more crate names on [crates.io](https://crates.io) for future use by publishing a placeholder crate. While this practice is not forbidden, it is also frowned upon by some, and can be reverted in extreme or malicious cases.
 
 ## eat your laundry
 
@@ -56,6 +56,6 @@ It is primarily opinion-based whether one should use the toilet closure or `drop
 
 `::<>`
 
-The base syntax for defining explicit type parameters.
+The base syntax for defining type parameters explicitly when using a generic type or function.
 
-See also <turbo.fish>
+See also [turbo.fish](https//turbo.fish).
