@@ -2,6 +2,10 @@
 
 Reserving one or more crate names on [crates.io](https://crates.io) for future use by publishing a placeholder crate. While this practice is not forbidden, it is also frowned upon by some, and can be reverted in extreme or malicious cases.
 
+## dtolnay trick
+
+See [**semver trick**](#semver-trick).
+
 ## eat your laundry
 
 Metaphorical expression for a consequence of [undefined behavior](https://doc.rust-lang.org/reference/behavior-considered-undefined.html). It is often used in the Rust community as an alternative to [nasal demons](http://catb.org/jargon/html/N/nasal-demons.html).
@@ -43,6 +47,12 @@ A movement of proponents of Rust, who usually talk to their peers about the bene
 A Rust developer. A word play between _Rust_ and _crustacean_, alluding to the mascot [Ferris](#ferris).
 
 A community maintained list of Rustaceans is available at https://www.rustaceans.org.
+
+## semver trick
+
+A trick for Rust libraries to publish breaking changes without requiring other crates around the ecosystem to upgrade in a coordinated fashion.
+
+Official reference: https://github.com/dtolnay/semver-trick
 
 ## toilet closure
 
