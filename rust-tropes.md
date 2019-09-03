@@ -32,6 +32,10 @@ It is a mnemonic for the HRTB acronym.
 
 The brackets, empty tuples and comma resemble an owl's head.
 
+## Pre-Poop Your Pants (PPYP)
+
+In unsafe code, preemptively guarantee that a panic or incorrect API usage in safe code will result in logical errors rather than undefined behaviour. See [Pre-Pooping Your Pants With Rust](https://cglab.ca/~abeinges/blah/everyone-poops/#pre-pooping-your-pants)
+
 ## rewrite in Rust
 
 Also known as _rewrite it in Rust_ (RIIR). A proposition or idea of porting existing software to Rust. See also [Rust Evangelism Strike Force](#rust-evangelism-strike-force).
