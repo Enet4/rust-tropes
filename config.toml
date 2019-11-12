@@ -1,0 +1,33 @@
+
+
+# The URL the site will be built for
+base_url = "https://enet4.github.io/rust-tropes"
+
+title = "Rust Tropes"
+
+description = "A dictionary of expressions and other jargon used by members of the Rust community"
+
+# The default language, used in RSS
+default_language = "en"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+theme = "hyde"
+
+[extra]
+# Put all your custom variables here
+hyde_theme = "theme-base-0f"
+hyde_sticky = false
+hyde_links = [
+  { url = "https://github.com/Enet4/rust-tropes", name = "Contribute on GitHub"},
+]
+
+insert_anchor_links = "left"
