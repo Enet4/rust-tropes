@@ -68,7 +68,7 @@
 
     <div class="content container">
       {% block content %}
-        {% for page in section.pages | reverse %}
+        {% for page in section.pages | sort(attribute="title") %}
         <div class="post">
           <h2>{{ page.title }}</h2>
 
