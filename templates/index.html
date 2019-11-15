@@ -73,6 +73,15 @@
           <h2>{{ page.title }}</h2>
 
           {{ page.content | safe }}
+          
+          {% if page.extra.references is defined %}
+          <h3>References</h3>
+          <ul>
+          {% for ref in page.extra.references %}
+            <li><a href="{{ ref.url }}">{{ ref.title }}</a></li>
+          {% endfor %}
+          </ul>
+          {% endif %}
         </div>
         {% endfor %}
       {% endblock content %}
