@@ -25,4 +25,4 @@ zola serve
     style="border-width:0"
     src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"/></a>
 
-The actual content of this dictionary, currently in the file [content/index.md](content/index.md) but not bound by this representation or path in the repository, is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. This license shall be transferred with any eventual change of formatting or representation of the same information.
+The actual content of this dictionary, currently in the [content](content) folder but not bound by this representation or path in the repository, is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. This license shall be transferred with any eventual change of formatting or representation of the same information.
