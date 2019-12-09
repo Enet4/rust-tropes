@@ -68,11 +68,22 @@
 
     <div class="content container">
       {% block content %}
-        {% for page in section.pages | reverse %}
+        {% for page in section.pages | sort(attribute="title") %}
         <div class="post">
-          <h2>{{ page.title }}</h2>
-
+          <h2 id="{{page.title | slugify}}">
+            <a class="zola-anchor" href="#{{page.title | slugify}}" aria-label="Anchor link for: {{page.title}}">🔗 </a>
+              {{ page.title }}
+          </h2>
           {{ page.content | safe }}
+          
+          {% if page.extra.references is defined %}
+          <h3>References</h3>
+          <ul>
+          {% for ref in page.extra.references %}
+            <li><a href="{{ ref.url }}">{{ ref.title }}</a></li>
+          {% endfor %}
+          </ul>
+          {% endif %}
         </div>
         {% endfor %}
       {% endblock content %}
