@@ -1,5 +1,5 @@
 +++
-title = "Eat your laundry"
+title = "Eat your Laundry"
 
 [[extra.references]]
 title = "Usage in (old) rustfix Readme"

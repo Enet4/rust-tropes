@@ -1,5 +1,5 @@
 +++
-title = "Turbo fish"
+title = "Turbo Fish"
 +++
 `::<>`
 The base syntax for defining type parameters explicitly when using a generic type or function.
