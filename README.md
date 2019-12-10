@@ -6,15 +6,9 @@ This project is an initiative to write a dictionary of expressions and other jar
 
 ## Contributing
 
-This project is open to contributions of various forms, including more content, increased accuracy of said content, and style improvements.
+This project is open to contributions of various forms, including more content, increased accuracy of said content, and style improvements. 
 
-If you feel that something is a trope worth having here, or wish to discuss a particular trope, please file an issue. Pull requests proposing new entries or improvements to existing entries are also welcome. Please prefer one pull request per entry, so that they can be reviewed individually.
-
-To serve the site locally, use [Zola](https://getzola.org):
-
-```sh
-zola serve
-```
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
 
 ## License
 
