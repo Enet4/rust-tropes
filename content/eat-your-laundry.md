@@ -2,6 +2,10 @@
 title = "Eat your Laundry"
 
 [[extra.references]]
+title = "Usage on the old rust home page"
+url = "https://web.archive.org/web/20150101023316/http://www.rust-lang.org/"
+
+[[extra.references]]
 title = "Usage in (old) rustfix Readme"
 url = "https://github.com/rust-lang/rustfix/blob/91f3156cb5a078a94a07868828dd097e2ea87e43/Readme.md#gotchas"
 +++
