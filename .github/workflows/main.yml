@@ -2,12 +2,11 @@ on: push
 name: Build and deploy to GitHub Pages on push
 jobs:
   build:
-    name: shalzz/zola-deploy-action
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - name: shalzz/zola-deploy-action
-      uses: shalzz/zola-deploy-action@master
+    - uses: actions/checkout@v3
+    - name: deploy Zola site
+      uses: shalzz/zola-deploy-action@v0.16.1
       env:
         PAGES_BRANCH: gh-pages
-        TOKEN: ${{ secrets.TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
