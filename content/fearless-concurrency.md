@@ -1,5 +1,5 @@
 +++
-title = "Eat your Laundry"
+title = "Fearless concurrency"
 
 [[extra.references]]
 title = "Fearless Concurrency with Rust"
