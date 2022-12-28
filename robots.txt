@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://enet4.github.io/rust-tropes/sitemap.xml
